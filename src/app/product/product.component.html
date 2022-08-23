@@ -1,0 +1,16 @@
+<div class="cards">
+  <div class="card" *ngFor="let item of data">
+    <h2 class="card-title">{{ item.title }}</h2>
+    <h4 class="card-title">{{ item.category }}</h4>
+    <img
+      src="{{ item.thumbnail }}"
+      alt="{{ item.id }}"
+      (click)="Details(item)"
+    />
+    <p class="card-desc">
+      {{ item.description }}
+    </p>
+    <input class="likebtn" type="button" value="Like" />
+    <input class="sharebtn" type="button" value="Share" />
+  </div>
+</div>

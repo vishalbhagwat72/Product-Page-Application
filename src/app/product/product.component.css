@@ -1,0 +1,49 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: bisque;
+}
+
+.card {
+  background-color: rgb(93, 172, 241);
+  position: relative;
+  width: 250px;
+  margin: 50px;
+  border: 10cm;
+}
+
+.card-title {
+  display: block;
+  text-align: center;
+  padding: 2%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.card img {
+  cursor: pointer;
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+  display: block;
+  position: relative;
+}
+
+.card-desc {
+  text-align: center;
+  display: block;
+  font-size: 1.2rem;
+  position: relative;
+  opacity: 1;
+  padding: 20px;
+}
+.likebtn {
+  position: absolute;
+  left: 5%;
+  bottom: 2%;
+}
+.sharebtn {
+  position: absolute;
+  left: 75%;
+  bottom: 2%;
+}
